@@ -382,6 +382,7 @@ var id = vars.get(&quot;ids_&quot; + k);
 var link =id;
 log.info(link);
 var city = vars.get(&quot;cities_&quot; + k);
+city = city.replaceAll(&apos;Bucharest&apos;,&apos;București&apos;);
 city = city.toLowerCase();
 city = city.capitalize();
 log.info(city);
